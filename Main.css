@@ -1,0 +1,159 @@
+body {
+    background-color: #F2F2F2;
+}
+
+#back {
+    top: -40px;
+    left: 50%;
+    width: 50%;
+    float: right;
+    z-index: 0;
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    max-height: 1050px;
+    margin-bottom: -15%;
+    clip: rect( 0px, 1000px, 1000px, 0px );
+}
+
+#left {
+    top: 100px;
+    height: 180px;
+    float: left;
+    z-index: 2;
+    position: relative;
+}
+
+#right {
+    width: 11%;
+    top: -40px;
+    right: 0px;
+    z-index: 1;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: top;
+    position: absolute;
+}
+
+#h1 {
+    top: 0px;
+    font-size: 40px;
+    left: 100px;
+    font-weight: lighter;
+    position: absolute;
+    z-index: 5;
+}
+
+#p1 {
+    top: 15px;
+    left: 270px;
+    font-size: 25px;
+    font-weight: lighter;
+    position: absolute;
+}
+
+#p2 {
+    top: 15px;
+    left: 390px;
+    font-size: 25px;
+    font-weight: lighter;
+    position: absolute;
+}
+
+#p3 {
+    top: 15px;
+    left: 550px;
+    font-size: 25px;
+    font-weight: lighter;
+    position: absolute;
+}
+
+body, html {
+    margin: 0;
+}
+
+#lm_h1 {
+    font-weight: normal;
+    left: 25%;
+    top: 35%;
+    font-size: 100px;
+    position: absolute;
+}
+
+#rm_h1 {
+    color: white;
+    font-weight: normal;
+    right: 25%;
+    top: 35%;
+    font-size: 100px;
+    position: absolute;
+    z-index: 3;
+}
+
+#B_Box1 {
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    top: 49%;
+    background-color: black;
+}
+
+#B_Box2 {
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    top: 54%;
+    background-color: black;
+}
+
+#W_Box1 {
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    right: 0px;
+    top: 46%;
+    background-color: white;
+    z-index: 3;
+}
+
+#W_Box2 {
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    right: 0px;
+    top: 51%;
+    background-color: white;
+    z-index: 3;
+}
+
+#W_Box3 {
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    right: 0px;
+    top: 56%;
+    background-color: white;
+    z-index: 3;
+}
+
+#made {
+    position: absolute;
+    font-weight: lighter;
+    left: 5%;
+    bottom: 20px;
+}
+
+#noname {
+    position: absolute;
+    font-weight: lighter;
+    left: 43%;
+    bottom: 20px;
+}
+
+#text {
+    color: white;
+    position: absolute;
+    font-weight: lighter;
+    right: 30%;
+    bottom: 10px;
+}
